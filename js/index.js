@@ -172,12 +172,12 @@ playPauseBtn.addEventListener("click", () => {
 });
 
 // Play media for the initially selected stream
-if (navigator.onLine) {
-  playMedia(selected);
-} else {
-  noticeContainer.innerHTML = `<h2 style="color:red;">You are Offline</h2>`;
-  noticeContainer.classList.add("offline");
-}
+// if (navigator.onLine) {
+//   playMedia(selected);
+// } else {
+//   noticeContainer.innerHTML = `<h2 style="color:red;">You are Offline</h2>`;
+//   noticeContainer.classList.add("offline");
+// }
 
 // Event listener for offline status
 window.addEventListener("offline", () => {
