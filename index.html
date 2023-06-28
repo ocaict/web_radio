@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Online Radios</title>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
+    <meta name="theme-color" content="#31d53d" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- <h1>OcaMedia</h1> -->
+        <div class="search-container">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search by Name or location"
+          />
+          <i class="fa-solid fa-search"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="radio-btns radios">
+        <button class="ocamedia">
+          <img src="./images/oca.png" alt="Logo" />
+          <img
+            class="wave"
+            src="./images/wave.gif"
+            alt="Wave"
+            style="display: block"
+          />
+          <div class="btn-contents">
+            <p>Oca Media</p>
+            <small>zeno. web, Internet</small>
+          </div>
+        </button>
+      </div>
+      <!-- Notice Container -->
+      <div class="notice-container">
+        <h2>Loading....</h2>
+      </div>
+
+      <div class="footer wrapper">
+        <div class="btn-container">
+          <button id="play-btn" class="btn play-btn">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
