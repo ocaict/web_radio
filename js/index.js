@@ -179,19 +179,17 @@ playPauseBtn.addEventListener("click", () => {
 //   noticeContainer.classList.add("offline");
 // }
 
-// Event listener for offline status
-window.addEventListener("offline", () => {
-  stopMedia();
+// // Event listener for offline status
+// window.addEventListener("offline", () => {
+//   stopMedia();
+//   noticeContainer.innerHTML = `<h2 style="color:red;"">You are Offline</h2>`;
+// });
 
-  noticeContainer.innerHTML = `<h2 style="color:red;"">You are Offline</h2>`;
-});
-
-// Event listener for online status
-window.addEventListener("online", () => {
-  console.log("Started");
-  playMedia(selected);
-  noticeContainer.classList.remove("offline");
-});
+// // Event listener for online status
+// window.addEventListener("online", () => {
+//   playMedia(selected);
+//   noticeContainer.classList.remove("offline");
+// });
 
 // Implement Search and Filter
 searchInput.addEventListener("input", (e) => {
